@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2024-05-21 14:41-0500\n"
-"PO-Revision-Date: 2024-05-25 23:24+0900\n"
+"PO-Revision-Date: 2024-05-26 14:22+0900\n"
 "Last-Translator: \n"
 "Language-Team: ja <LL@li.org>\n"
 "Language: ja\n"
@@ -24,14 +24,14 @@ msgid ""
 "Your remote session is about to begin. To stop controlling the remote computer and open the RIM menu at any time during the session, you must press Option+Shift+Backspace. Please remember this keyboard command, since it is the only way to leave the "
 "remote session."
 msgstr ""
-"まもなくリモート セッションが始まります。セッション中にリモート コンピュータの制御を停止して RIM メニューを開くには、Option+Shift+Backspace キーを押してください。このキーボード コマンドはリモート セッションを終了する唯一の方法であるため、覚えておい"
+"まもなくリモート セッションが始まります。セッション中にリモート コンピュータの制御を終了して RIM メニューを開くには、Option+Shift+Backspace キーを押してください。このキーボード コマンドはリモート セッションを終了する唯一の方法であるため、覚えておい"
 "てください。"
 
 msgid ""
 "Your remote session is about to begin. To stop controlling the remote computer and open the RIM menu at any time during the session, you must press Windows+Shift+Backspace. Please remember this keyboard command, since it is the only way to leave "
 "the remote session."
 msgstr ""
-"まもなくリモート セッションが始まります。セッション中にリモート コンピュータの制御を停止して RIM メニューを開くには、Windows+Shift+Backspace キーを押してください。このキーボード コマンドはリモート セッションを終了する唯一の方法であるため、覚えておい"
+"まもなくリモート セッションが始まります。セッション中にリモート コンピュータの制御を終了して RIM メニューを開くには、Windows+Shift+Backspace キーを押してください。このキーボード コマンドはリモート セッションを終了する唯一の方法であるため、覚えておい"
 "てください。"
 
 msgid "OK"
@@ -73,13 +73,13 @@ msgid "The remote user has ended the session."
 msgstr "リモートユーザーがセッションを終了しました。"
 
 msgid "The remote session has flipped."
-msgstr "リモートセッションが反転しました。"
+msgstr "リモートセッションが切り替わりました。"
 
 msgid "The end-user is now in control."
 msgstr "エンドユーザーがコントロールできるようになりました。"
 
 msgid "The technician is now in control."
-msgstr "技術者がコントロールするようになりました。"
+msgstr "現在は技術者がコントロールしています。"
 
 msgid "You have already registered all of the target machines allowed by your current RIM subscription."
 msgstr "現在の RIM サブスクリプションで許可されているすべてのターゲット マシンはすでに登録されています。"
@@ -137,19 +137,19 @@ msgid "Re-install RIM as Administrator on Target"
 msgstr "ターゲットに管理者としてRIMを再インストールする"
 
 msgid "&Minimize Session"
-msgstr "セッションの最小化"
+msgstr "セッションを最小化(&I)"
 
 msgid "Stop Remote &Accessibility"
-msgstr "リモート＆アクセシビリティの停止"
+msgstr "リモートアクセシビリティを停止(&A)"
 
 msgid "Stop Fusion on Target"
-msgstr "ストップ・フュージョン・オン・ターゲット"
+msgstr "ターゲット上の融合を停止"
 
 msgid "Stop JAWS on Target"
-msgstr "ターゲット上で JAWS を停止する"
+msgstr "ターゲット上で JAWS を停止"
 
 msgid "Stop Narrator on Target"
-msgstr "ターゲットでナレーターを停止する"
+msgstr "ターゲットでナレーターを停止"
 
 msgid "Stop NVDA on Target"
 msgstr "ターゲット上でNVDAを停止"
@@ -256,7 +256,7 @@ msgid "You have one minute of prepaid RIM connection time left."
 msgstr "プリペイドRIM接続時間が1分残っています。"
 
 msgid "The remote session has ended because %{controller_name} ran out of time on RIM."
-msgstr "%{controller_name} 、RIMで時間切れになったため、リモートセッションは終了した。"
+msgstr "%{controller_name} 、RIMで時間切れになったため、リモートセッションは終了しました。"
 
 msgid "Your RIM session has ended because your RIM connection time for today, from both the free tier and your RIM Personal Community Support subscription, has run out."
 msgstr "無料ティアと RIM パーソナルコミュニティサポートサブスクリプションの両方からの、本日の RIM 接続時間が終了したため、RIM セッションが終了しました。"
@@ -268,10 +268,10 @@ msgid "The target machine just started rebooting. Do you want to reconnect to th
 msgstr "ターゲットマシンが再起動を開始しました。再起動が完了したら、RIMセッションに再接続しますか?"
 
 msgid "&Yes"
-msgstr "はい"
+msgstr "はい(&Y)"
 
 msgid "&No"
-msgstr "いいえ"
+msgstr "いいえ(&N)"
 
 msgid "This unattended target is no longer valid."
 msgstr "この無人ターゲットは無効になりました。"
@@ -292,7 +292,7 @@ msgid "Remote Incident Manager %{version}"
 msgstr "リモート・インシデント・マネージャー %{version}"
 
 msgid "E&xit"
-msgstr "終了"
+msgstr "終了(&E)"
 
 msgid "Do you want to revoke %{controller_name}'s permission to start unattended remote sessions on this computer?"
 msgstr "このコンピュータで無人リモートセッションを開始するための %{controller_name} の許可を取り消しますか？"
@@ -328,10 +328,10 @@ msgid "%{controller_name} is requesting permission to access this computer at an
 msgstr "%{controller_name} は、リモートセッションを開始することなく、いつでもこのコンピュータにアクセスする許可を要求しています。この要求を許可しますか?"
 
 msgid "Do you want to have a voice conversation with %{controller_name} during this remote control session?"
-msgstr "この遠隔操作セッション中に、 %{controller_name} と音声で会話したいですか？"
+msgstr "この遠隔操作セッション中に、 %{controller_name} と音声で会話を行いますか？"
 
 msgid "Do you want to have a voice conversation with the person that is currently remotely controlling this computer during this session?"
-msgstr "このセッション中に、現在このコンピューターを遠隔操作している人と音声で会話したいですか？"
+msgstr "このセッション中に、現在このコンピューターを遠隔操作している人と音声で会話を行いますか？"
 
 msgid "The remote user has denied your request for a voice conversation."
 msgstr "リモートユーザーが音声会話の要求を拒否しました。"
@@ -373,10 +373,10 @@ msgid "Check for Update"
 msgstr "アップデートの確認"
 
 msgid "Remote Incident Manager: Provide Remote Help"
-msgstr "リモートインシデントマネージャー：リモートヘルプの提供"
+msgstr "リモートインシデントマネージャー：リモートサポートの提供"
 
 msgid "Provide Remote Help"
-msgstr "リモート・ヘルプの提供"
+msgstr "リモート・サポートの提供"
 
 msgid "Sign up for paid RIM services"
 msgstr "RIMの有料サービスに登録する"
@@ -415,10 +415,10 @@ msgid "Search"
 msgstr "検索"
 
 msgid "Start"
-msgstr "スタート"
+msgstr "開始"
 
 msgid "Choose a machine"
-msgstr "マシンを選ぶ"
+msgstr "マシンを選択"
 
 msgid "Use a keyword"
 msgstr "キーワードを使う"
@@ -445,7 +445,7 @@ msgid "You must enter a machine name or part of a name to search for."
 msgstr "検索するマシン名またはマシン名の一部を入力する必要があります。"
 
 msgid "Waiting for the other user to enter the keyword."
-msgstr "他のユーザーがキーワードを入力するのを待つ。"
+msgstr "他のユーザーがキーワードを入力するのを待っています。"
 
 msgid "Starting session; please wait."
 msgstr "セッションを開始します。"
